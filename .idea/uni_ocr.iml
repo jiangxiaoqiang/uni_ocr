@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/packages/uni_ocr_client/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/uni_ocr_client/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/uni_ocr_client/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ocr_engine_tesseract/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ocr_engine_tesseract/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ocr_engine_tesseract/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ocr_engine_youdao/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ocr_engine_youdao/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/ocr_engine_youdao/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/uni_ocr/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/uni_ocr/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/uni_ocr/.pub" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -11,17 +11,17 @@ dependencies:
     git:
       path: packages/ocr_engine_tesseract
       ref: master
-      url: https://github.com/biyidev/uni_ocr.git
+      url: https://github.com/jiangxiaoqiang/uni_ocr.git
   ocr_engine_youdao:
     git:
       path: packages/ocr_engine_youdao
       ref: master
-      url: https://github.com/biyidev/uni_ocr.git
+      url: https://github.com/jiangxiaoqiang/uni_ocr.git
   uni_ocr_client:
     git:
       path: packages/uni_ocr_client
       ref: master
-      url: https://github.com/biyidev/uni_ocr.git
+      url: https://github.com/jiangxiaoqiang/uni_ocr.git
 
 dev_dependencies:
   test: ^1.0.0

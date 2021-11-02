@@ -10,7 +10,12 @@ environment:
 dependencies:
   crypto: any
   http: any
-  uni_ocr_client: ^0.0.1
+  uni_ocr_client:
+    git:
+      path: packages/uni_ocr_client
+      ref: master
+      url: https://github.com/jiangxiaoqiang/uni_ocr.git
+
 
 dev_dependencies:
   test: ^1.0.0

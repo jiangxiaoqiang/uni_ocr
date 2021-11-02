@@ -8,9 +8,15 @@ environment:
 
 dependencies:
   ocr_engine_tesseract:
-    path: ../ocr_engine_tesseract
+    git:
+      path: packages/ocr_engine_tesseract
+      ref: master
+      url: https://github.com/biyidev/uni_ocr.git
   ocr_engine_youdao:
-    path: ../ocr_engine_youdao
+    git:
+      path: packages/ocr_engine_youdao
+      ref: master
+      url: https://github.com/biyidev/uni_ocr.git
   uni_ocr_client: ^0.0.1
 
 dev_dependencies:

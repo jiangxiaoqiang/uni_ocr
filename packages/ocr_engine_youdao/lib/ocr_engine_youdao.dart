@@ -34,10 +34,10 @@ class YoudaoOcrEngine extends OcrEngine {
 
   @override
   Future<DetectTextResponse> detectText(DetectTextRequest request) async {
-    DetectTextResponse detectTextResponse = DetectTextResponse();
+    DetectTextResponse detectTextResponse = DetectTextResponse(text: '');
 
-    String base64Image = request.getBase64Image();
-    String input = base64Image;
+    String? base64Image = request.getBase64Image();
+    String input = base64Image!;
     if (base64Image.length > 20)
       input =
           '${base64Image.substring(0, 10)}${base64Image.length}${base64Image.substring(base64Image.length - 10)}';

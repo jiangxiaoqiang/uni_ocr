@@ -173,14 +173,14 @@
         <entry key="ocr_engine_tesseract">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/git/uni_ocr-f3f7deed676e0385df11b5eba84b538cc8ccfe9c/packages/ocr_engine_tesseract/lib" />
+              <option value="$USER_HOME$/.pub-cache/git/uni_ocr-6d5c0d5c2605cf5490fc205a4bb242d816a47c29/packages/ocr_engine_tesseract/lib" />
             </list>
           </value>
         </entry>
         <entry key="ocr_engine_youdao">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/git/uni_ocr-f3f7deed676e0385df11b5eba84b538cc8ccfe9c/packages/ocr_engine_youdao/lib" />
+              <option value="$USER_HOME$/.pub-cache/git/uni_ocr-6d5c0d5c2605cf5490fc205a4bb242d816a47c29/packages/ocr_engine_youdao/lib" />
             </list>
           </value>
         </entry>
@@ -328,6 +328,7 @@
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/git/uni_ocr-f3f7deed676e0385df11b5eba84b538cc8ccfe9c/packages/uni_ocr_client/lib" />
+              <option value="$USER_HOME$/.pub-cache/git/uni_ocr-6d5c0d5c2605cf5490fc205a4bb242d816a47c29/packages/uni_ocr_client/lib" />
             </list>
           </value>
         </entry>
@@ -369,8 +370,9 @@
       </option>
     </properties>
     <CLASSES>
-      <root url="file://$USER_HOME$/.pub-cache/git/uni_ocr-f3f7deed676e0385df11b5eba84b538cc8ccfe9c/packages/ocr_engine_tesseract/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/git/uni_ocr-f3f7deed676e0385df11b5eba84b538cc8ccfe9c/packages/ocr_engine_youdao/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/git/uni_ocr-6d5c0d5c2605cf5490fc205a4bb242d816a47c29/packages/ocr_engine_tesseract/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/git/uni_ocr-6d5c0d5c2605cf5490fc205a4bb242d816a47c29/packages/ocr_engine_youdao/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/git/uni_ocr-6d5c0d5c2605cf5490fc205a4bb242d816a47c29/packages/uni_ocr_client/lib" />
       <root url="file://$USER_HOME$/.pub-cache/git/uni_ocr-f3f7deed676e0385df11b5eba84b538cc8ccfe9c/packages/uni_ocr_client/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-26.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/analyzer-2.3.0/lib" />

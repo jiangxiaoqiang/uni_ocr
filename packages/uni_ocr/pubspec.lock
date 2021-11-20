@@ -174,7 +174,7 @@ packages:
     description:
       path: "packages/ocr_engine_tesseract"
       ref: master
-      resolved-ref: f3f7deed676e0385df11b5eba84b538cc8ccfe9c
+      resolved-ref: "6d5c0d5c2605cf5490fc205a4bb242d816a47c29"
       url: "https://github.com/jiangxiaoqiang/uni_ocr.git"
     source: git
     version: "0.0.1"
@@ -183,7 +183,7 @@ packages:
     description:
       path: "packages/ocr_engine_youdao"
       ref: master
-      resolved-ref: f3f7deed676e0385df11b5eba84b538cc8ccfe9c
+      resolved-ref: "6d5c0d5c2605cf5490fc205a4bb242d816a47c29"
       url: "https://github.com/jiangxiaoqiang/uni_ocr.git"
     source: git
     version: "0.0.1"
@@ -332,7 +332,7 @@ packages:
     description:
       path: "packages/uni_ocr_client"
       ref: master
-      resolved-ref: f3f7deed676e0385df11b5eba84b538cc8ccfe9c
+      resolved-ref: "6d5c0d5c2605cf5490fc205a4bb242d816a47c29"
       url: "https://github.com/jiangxiaoqiang/uni_ocr.git"
     source: git
     version: "0.0.1"

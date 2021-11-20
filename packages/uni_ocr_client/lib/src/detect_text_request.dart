@@ -4,9 +4,9 @@ import 'dart:io';
 class DetectTextRequest {
   final String imagePath;
 
-  String _base64Image;
+  String? _base64Image;
 
-  String getBase64Image() {
+  String? getBase64Image() {
     if (_base64Image == null) {
       File imageFile = File(imagePath);
       List<int> imageBytes = imageFile.readAsBytesSync();
@@ -16,8 +16,8 @@ class DetectTextRequest {
   }
 
   DetectTextRequest({
-    this.imagePath,
-    String base64Image,
+    required this.imagePath,
+    String? base64Image,
   }) {
     if (base64Image != null) {
       this._base64Image = base64Image;
@@ -25,8 +25,6 @@ class DetectTextRequest {
   }
 
   factory DetectTextRequest.fromJson(Map<String, dynamic> json) {
-    if (json == null) return null;
-
     return DetectTextRequest(
       imagePath: json['imagePath'],
     );

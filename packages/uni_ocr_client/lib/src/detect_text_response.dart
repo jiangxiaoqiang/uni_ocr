@@ -2,12 +2,10 @@ class DetectTextResponse {
   String text;
 
   DetectTextResponse({
-    this.text,
+    required this.text,
   });
 
   factory DetectTextResponse.fromJson(Map<String, dynamic> json) {
-    if (json == null) return null;
-
     return DetectTextResponse(
       text: json['text'],
     );

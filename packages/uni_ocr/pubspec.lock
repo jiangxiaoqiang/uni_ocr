@@ -172,16 +172,20 @@ packages:
   ocr_engine_tesseract:
     dependency: "direct main"
     description:
-      path: "../ocr_engine_tesseract"
-      relative: true
-    source: path
+      path: "packages/ocr_engine_tesseract"
+      ref: master
+      resolved-ref: b19eb21d3aea643c584d4766e73e657fabe6c1d4
+      url: "https://github.com/jiangxiaoqiang/uni_ocr.git"
+    source: git
     version: "0.0.1"
   ocr_engine_youdao:
     dependency: "direct main"
     description:
-      path: "../ocr_engine_youdao"
-      relative: true
-    source: path
+      path: "packages/ocr_engine_youdao"
+      ref: master
+      resolved-ref: b19eb21d3aea643c584d4766e73e657fabe6c1d4
+      url: "https://github.com/jiangxiaoqiang/uni_ocr.git"
+    source: git
     version: "0.0.1"
   package_config:
     dependency: transitive
@@ -326,9 +330,11 @@ packages:
   uni_ocr_client:
     dependency: "direct main"
     description:
-      name: uni_ocr_client
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "packages/uni_ocr_client"
+      ref: master
+      resolved-ref: b19eb21d3aea643c584d4766e73e657fabe6c1d4
+      url: "https://github.com/jiangxiaoqiang/uni_ocr.git"
+    source: git
     version: "0.0.1"
   vm_service:
     dependency: transitive

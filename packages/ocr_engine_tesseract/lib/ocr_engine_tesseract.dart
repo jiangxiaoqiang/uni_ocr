@@ -13,7 +13,7 @@ class TesseractOcrEngine extends OcrEngine {
 
   @override
   Future<DetectTextResponse> detectText(DetectTextRequest request) async {
-    DetectTextResponse detectTextResponse = DetectTextResponse();
+    DetectTextResponse detectTextResponse = DetectTextResponse(text: '');
     String ocrOutputPath = request.imagePath.replaceAll(".png", ".txt");
     ProcessResult processResult = Process.runSync(
       'tesseract',
